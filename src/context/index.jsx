@@ -8,6 +8,7 @@ export default function GlobalState({ children }) {
     const [searchParam, setSearchParam] = useState('');
     const [loading, setLoading] = useState(false);
     const [recipes, setRecipes] = useState([]);
+    const [recipeDetails, setRecipeDetails] = useState(null);
 
     async function handleSubmit(event) {
         event.preventDefault();
@@ -36,7 +37,9 @@ export default function GlobalState({ children }) {
             setSearchParam, 
             handleSubmit,
             loading,
-            recipes
+            recipes,
+            recipeDetails,
+            setRecipeDetails
         }}>
             {children}
         </GlobalContext.Provider>
