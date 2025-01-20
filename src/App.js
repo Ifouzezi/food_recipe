@@ -11,7 +11,7 @@ import {
 
 function App() {
   return (
-    <div className='min-h-screen p-6 bg-gray-300 text-gray-600 text-lg'>
+    <div className='min-h-screen p-6 bg-gray-100 text-gray-600 text-lg'>
       <Navbar />
 <Router>
       <Routes>

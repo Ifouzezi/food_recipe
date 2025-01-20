@@ -17,7 +17,7 @@ export default function RecipesList({ item }) {
             </h3>
             <Link
                 to={`/recipe-item/${item?.id}`}
-                className="text-sm p-3 px-8 rounded-lg uppercase font-medium tracking-wider inline-block shadow-md bg-black text-white"
+                className="text-sm p-3 px-8 rounded-lg font-medium tracking-wider inline-block shadow-md bg-black text-white"
             >
                 View Recipe
             </Link>
