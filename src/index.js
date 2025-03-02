@@ -11,9 +11,9 @@ root.render(
 
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
-     <GlobalState>
-      <App />
-     </GlobalState>
+      <GlobalState>
+        <App />
+      </GlobalState>
     </React.StrictMode>
   </BrowserRouter>
 );
